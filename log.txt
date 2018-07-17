@@ -40,3 +40,9 @@ Gender: Female
 Country of Birth: United States
 URL: http://www.tvmaze.com/people/58451/jennifer-lawrence
 
+Name: Jennifer Lawrence
+Birthday: 1990-08-15
+Gender: Female
+Country of Birth: United States
+URL: http://www.tvmaze.com/people/58451/jennifer-lawrence
+
