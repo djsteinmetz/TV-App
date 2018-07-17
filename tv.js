@@ -1,17 +1,24 @@
-var request = require("request");
-var fs = require("fs");
+var request = require("request"), fs = require("fs");
 var TV = function() {
   this.findShow = function(show) {
-    // The following URL can be used to search the TV Maze API for a given show
     var URL = "http://api.tvmaze.com/singlesearch/shows?q=" + show;
     request(URL, function(error, response, body) {
       if (!error && response.statusCode === 200) {
-          
-        // Parse the body of the site and recover just the imdbRating
-        // (Note: The syntax below for parsing isn't obvious. Just spend a few moments dissecting it).
         var mov = JSON.parse(body);
-        // console.log(mov);
-        let logs = "Name: " + mov.name + "\nGenre(s): " + mov.genres + "\nRating: " + mov.rating.average + "\nNetwork: " + mov.network.name + "\nSummary: " + mov.summary + "\n"
+        let logs = "Name: " + mov.name + "\nGenre(s): " + mov.genres + "\nRating: " + mov.rating.average + "\nNetwork: " + mov.network.name + "\nSummary: " + mov.summary + "\n\n"
+        fs.appendFile("log.txt", logs, function(err) {
+          if (err) throw err;
+        });
+        console.log(logs)
+      };
+    });
+  };
+  this.findActor = function(actor) {
+    var URL = "http://api.tvmaze.com/search/people?q=" + actor
+    request(URL, function(error, response, body) {
+      if (!error && response.statusCode === 200) {
+        var act = JSON.parse(body);
+        let logs = "Name: " + act[0].person.name + "\nBirthday: " + act[0].person.birthday + "\nGender: " + act[0].person.gender + "\nCountry of Birth: " + act[0].person.country.name + "\nURL: " + act[0].person.url + "\n\n"
         fs.appendFile("log.txt", logs, function(err) {
           if (err) throw err;
         });
@@ -20,5 +27,4 @@ var TV = function() {
     });
   };
 };
-
 module.exports = TV;

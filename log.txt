@@ -1,5 +1,42 @@
+Name: Jennifer Aniston
+Birthday: 1969-02-11
+Gender: Female
+Country of Birth: United States
+URL: http://www.tvmaze.com/people/24483/jennifer-aniston
+
 Name: Westworld
 Genre(s): Drama,Science-Fiction,Western
 Rating: 8.7
 Network: HBO
 Summary: <p><b>Westworld</b> is a dark odyssey about the dawn of artificial consciousness and the evolution of sin. Set at the intersection of the near future and the reimagined past, it explores a world in which every human appetite, no matter how noble or depraved, can be indulged.</p>
+
+Name: Friends
+Genre(s): Comedy,Romance
+Rating: 8.8
+Network: NBC
+Summary: <p>Six young (20-something) people from New York City (Manhattan), on their own and struggling to survive in the real world, find the companionship, comfort and support they get from each other to be the perfect antidote to the pressures of life.</p><p>This average group of buddies goes through massive mayhem, family trouble, past and future romances, fights, laughs, tears and surprises as they learn what it really means to be a friend.</p>
+
+Name: Al Pacino
+Birthday: 1940-04-25
+Gender: Male
+Country of Birth: United States
+URL: http://www.tvmaze.com/people/48596/al-pacino
+
+Name: Jennifer Aniston
+Birthday: 1969-02-11
+Gender: Female
+Country of Birth: United States
+URL: http://www.tvmaze.com/people/24483/jennifer-aniston
+
+Name: Westworld
+Genre(s): Drama,Science-Fiction,Western
+Rating: 8.7
+Network: HBO
+Summary: <p><b>Westworld</b> is a dark odyssey about the dawn of artificial consciousness and the evolution of sin. Set at the intersection of the near future and the reimagined past, it explores a world in which every human appetite, no matter how noble or depraved, can be indulged.</p>
+
+Name: Jennifer Lawrence
+Birthday: 1990-08-15
+Gender: Female
+Country of Birth: United States
+URL: http://www.tvmaze.com/people/58451/jennifer-lawrence
+
